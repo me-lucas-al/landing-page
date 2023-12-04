@@ -1,0 +1,97 @@
+body { /* Estilização de toda a estrutura da página*/
+    background-color: rgb(34, 34, 34);
+    color:white;
+    font-family: poppinsbold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header { /*Estilização do cabeçalho da página*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title { /*Estilização do título (Marketing Criativo)*/
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li { /*Estilização dos botões*/
+    display: inline-block;
+    margin: 20px;
+    font-family: poppinslight;
+}
+h1 { /*Estilização da fonte usada no título (Marketing Criativo)*/
+    font-weight: 200px;
+    line-height: 12px;
+    font-family: poppinsregular;
+}
+
+main { /*Estilização da parte principal da página*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2 { /*Estilização da fonte do título (Inscreva-se agora)*/
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{ /*Cor da parte "Inscreva-se" */
+    color: rgb(132, 14,201)
+}
+p { /*Estilização do texto na parte do cadastro*/
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+img { /*Estilização da imagem da mulher*/
+    width: 600px;
+    margin-left: 3em;
+}
+a { /*Cor dos botões*/
+    color: white;
+}
+a:hover { /*Cor dos botões quando passar o mouse por cima*/
+    color:rgb(132, 14,201);
+    transition: 30ms all;
+}
+.botao_principal { /*Estilização do botão principal "Já tem uma conta" */
+    border: 2px solid rgb(132, 14,201);
+    padding: 10px;
+    border-radius: 15px;
+}
+.botao_principal:hover { /*Cor do botão principal quando passsar o mouse por cima*/
+    background-color: rgb(132, 14,201);
+    color: white;
+
+}
+form { /*Estilização do cadastro*/
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+}
+.btn{ /*Estilização do botão "enviar"*/
+    height: 50px;
+    width: 200px;
+    background-color: rgb(132, 14,201);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+.btn:hover{ /*Estilização de quando passar o mouse por cima do botão "enviar"*/
+    cursor: pointer;
+}
+input { /*Estilização da parte do cadastro*/
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
