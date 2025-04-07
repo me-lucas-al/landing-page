@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newslatter</title> <!--Título Principal da Página-->
+    <link rel="shortcut icon" href="/components/images/logo.png"> <!--Logo da página-->
+    <link rel="stylesheet" href="/style.css"> <!--Ligação para a página de estilização do CSS-->
+    <link rel="stylesheet" href="fonts.css"> <!--Ligação para a página das fontes usadas nesse projeto -->
+    <link rel="stylesheet" href="media.css"> <!--Ligação para a página onde serão feita as adaptações do site para cada tamanho de tela-->
+
+
+</head>
+<body> <!--A tag <body> representa toda a estrutura da página (o corpo)-->
+    <header> <!--A tag <header> representa a parte do cabeçalho da página-->
+    <div id = "title"> <!--Título do Cabeçalho-->
+        <h1>Marketing</h1>
+        <h1>Criativo</h1>
+    </div>
+    <ul class = "botoes"> <!--Botões do cabeçalho da Página-->
+        <a href = "#"><li>Início</li></a> <!--O "#" representada na tag <a href = "#"> representa que não tem nenhum link embutido nos botões-->
+        <a href = "#"><li>Serviços</li></a> 
+        <a href = "#"><li>Sobre</li></a>
+        <a href = "#"><li>Contatos</li></a>
+        <a href = "#" class = "botao_principal"><li>Já tem uma conta?</li></a>
+    </ul>
+    </header>
+
+    <main> <!--Parte principal da página-->
+        <aside class = "aside_main"> <!--Conteúdo lateral do lado esquerdo da página-->
+            <h2><span>Inscreva-se agora</span></h2> 
+            <h2>Na Newslatter</h2>  <!--Título da parte do cadastro-->
+            <p> <!--Texto da parte do formulário-->
+                A Newslatter é uma plataforma de marketing digital onde você aprende com os melhores professores e com um preço muito acessível. Inscreva-se agora e receba as melhores ofertas e novas promoções!
+            </p>
+            <form> <!--Cadastro-->
+                <input type = "text" placeholder = "Nome">
+                <input type = "email" placeholder = "E-Mail">
+                <button type = "submit" class = "btn">Enviar</button>
+            </form>
+        </aside>
+
+        <aside class = "aside_img"> <!--Conteúdo lateral do lado direito da página (Imagem da mulher)-->
+            <img src = "/components/images/mulher.png">
+        </aside>
+    </main>
+</body>
+</html>
