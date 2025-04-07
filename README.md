@@ -8,6 +8,4 @@ Esse projeto é uma landing page que foi feito para treinar minhas habilidades e
 - CSS3
 - Media Queries
 
-## 🔍 Visualização
 
-Você pode visualizar a página abrindo o arquivo `landingPage.html` no navegador.
